@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12498" started-at="2022-01-08T18:11:29Z" finished-at="2022-01-08T18:11:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12498" started-at="2022-01-08T18:11:29Z" finished-at="2022-01-08T18:11:41Z">
+      <class name="Test.US_SignUp">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:Test.US_SignUp@1afdd473]" name="start" is-config="true" duration-ms="6642" started-at="2022-01-08T18:11:29Z" finished-at="2022-01-08T18:11:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.US_SignUp@1afdd473]" name="signup" duration-ms="1102" started-at="2022-01-08T18:11:36Z" data-provider="fetchExcel" finished-at="2022-01-08T18:11:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manoj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hacker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manoj197@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.US_SignUp@1afdd473]" name="signup" duration-ms="2095" started-at="2022-01-08T18:11:37Z" data-provider="fetchExcel" finished-at="2022-01-08T18:11:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhijit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abhijit15@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.US_SignUp@1afdd473]" name="signup" duration-ms="1883" started-at="2022-01-08T18:11:40Z" data-provider="fetchExcel" finished-at="2022-01-08T18:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhijeet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abhijit@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- Test.US_SignUp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
